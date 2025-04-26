@@ -14,7 +14,7 @@ public class StringQueue implements IQueue {
   private int maxSize = 5;
 
   public StringQueue(int maxsize) {
-    maxSize = maxSize;
+    this.maxSize = maxsize;
   }
 
   @Override
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}
