@@ -1,35 +1,48 @@
 package at.fhj.msd;
 
-// fastly written (not really nice) comments you should adapt
+/**
+ * Interface for a basic queue structure.
+ * Defines methods to add, remove, and inspect elements in the queue.
+ */
 public interface IQueue {
-  /** 
-   * I am a really bad comment
-   * 
-   * fasdfadsffdsadsf
-   * 
-   * fdsasdfadsf
-   * 
-   *  add object to queue, true if okay 
-   * 
-   * i fell asleep on my keyboard...
-   * 
-   * */ 
+
+  /**
+   * Attempts to add an object to the queue.
+   *
+   * @param obj the object to add
+   * @return true if the object was added successfully, false otherwise
+   */
   public abstract boolean offer(String obj);
 
-  //returns + del 1st element; null if nothing in there
-   //
+  /**
+   * Retrieves and removes the first element of the queue,
+   * or returns null if the queue is empty.
+   *
+   * @return the first element, or null if the queue is empty
+   */
   public abstract String poll();
 
-  /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+  /**
+   * Retrieves and removes the first element of the queue.
+   *
+   * @return the first element of the queue
+   * @throws java.util.NoSuchElementException if the queue is empty
    */
   public abstract String remove();
 
-  // 1st element without dlete, otherwise null
-   
+  /**
+   * Retrieves, but does not remove, the first element of the queue,
+   * or returns null if the queue is empty.
+   *
+   * @return the first element, or null if the queue is empty
+   */
   public abstract String peek();
 
-  // element is to peek what remove is to poll
-  
+  /**
+   * Retrieves, but does not remove, the first element of the queue.
+   *
+   * @return the first element of the queue
+   * @throws java.util.NoSuchElementException if the queue is empty
+   */
   public abstract String element();
 }
