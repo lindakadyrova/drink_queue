@@ -20,6 +20,14 @@
         <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
         <timezone>Europe/Vienna</timezone>
       </developer>
+      <developer>
+        <id>marchatuzaeva</id>
+        <name>Marcha Tuzaeva</name>
+        <email>marcha.tuzaeva@edu.fh-joanneum.at</email>
+        <organization>FH JOANNEUM GmbH</organization>
+        <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+        <timezone>Europe/Vienna</timezone>
+      </developer>
     </developers>
 
     <properties>
