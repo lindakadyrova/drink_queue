@@ -29,6 +29,7 @@ This project is part of the seventh exercise in the course. It implements a queu
  
 ## Installations
 Java must be installed
+
 A code editor like VS Code is required
 Versions
  
