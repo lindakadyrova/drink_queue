@@ -21,7 +21,7 @@ This project is part of the seventh exercise in the course. It implements a queu
 - [x] tests: Write unit tests and ensure 100% coverage.
 - [ ] double_queue: Implement DoubleQueue (for 3-person groups).
 - [x] javadoc: Add JavaDoc comments for all classes and methods.
-- [ ] maven_site: Generate Maven site documentation and add team contributions.
+- [x] maven_site: Generate Maven site documentation and add team contributions.
  
 ## References
 - [Maven Documentation](https://maven.apache.org)
