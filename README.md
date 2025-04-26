@@ -14,13 +14,12 @@ This project is part of the seventh exercise in the course. It implements a queu
  
 ## Tasks
 - [x] readme: Write README with project details and tasks.
-- [x] maven_detail: Add dependencies, repository link, and developer info.
-- [x] bug_hunt: Fix three code errors in the existing files.
-- [x] drink: Implement Cocktail class with ingredients (Liquid objects).
-- [x] queue: Create DrinkQueue class to manage drinks.
-- [x] tests: Write unit tests and ensure 100% coverage.
-- [ ] double_queue: Implement DoubleQueue (for 3-person groups).
-- [x] javadoc: Add JavaDoc comments for all classes and methods.
+- [ ] maven_detail: Add dependencies, repository link, and developer info.
+- [ ] bug_hunt: Fix three code errors in the existing files.
+- [ ] drink: Implement Cocktail class with ingredients (Liquid objects).
+- [ ] queue: Create DrinkQueue class to manage drinks.
+- [ ] tests: Write unit tests and ensure 100% coverage.
+- [ ] javadoc: Add JavaDoc comments for all classes and methods.
 - [ ] maven_site: Generate Maven site documentation and add team contributions.
  
 ## References
