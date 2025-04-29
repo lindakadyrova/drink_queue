@@ -3,9 +3,7 @@
   <version position="left"/>
   <body>
     <menu name="Overview">
-      <item name="Introduction" href="index.html"/>
-      <item name="Test" href="test.html"/>
-      <item name="Drinks" href="drinks.html"/>
+      <item name="Introduction" href="drink_queue.html"/>
     </menu>
     <menu name="Team members">
       <item name="Linda Kadyrova" href="member1.html"/>
