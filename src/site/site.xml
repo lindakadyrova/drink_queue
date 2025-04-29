@@ -1,0 +1,16 @@
+<project name="drink_queue">
+  <publishDate position="right"/>
+  <version position="left"/>
+  <body>
+    <menu name="Overview">
+      <item name="Introduction" href="index.html"/>
+      <item name="Test" href="test.html"/>
+      <item name="Drinks" href="drinks.html"/>
+    </menu>
+    <menu name="Team members">
+      <item name="Linda Kadyrova" href="member1.html"/>
+      <item name="Marcha Tuzaeva" href="member2.html"/>
+    </menu>
+    <menu ref="reports"/>
+  </body>
+</project>
